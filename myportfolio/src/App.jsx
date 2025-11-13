@@ -1,3 +1,4 @@
+import Home from "./components/Home/Home"
 import Navbar from "./components/navbar/navbar"
 
  
@@ -9,7 +10,7 @@ function App() {
     <div className="bg-[#171d32] h-auto w-full overflow-hidden">
     
     <Navbar/>
-
+    <Home/>
     
       
     </div>
