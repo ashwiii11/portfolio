@@ -1,5 +1,6 @@
 import React from 'react'
-import AboutImg from '../../assets/7358653-removebg-preview.png'
+import AboutImg from '../../assets/7358653-removebg-preview.png';
+import {IoArrowForward} from 'react-icons/io5';
 
 const About = () => {
   return (
@@ -57,7 +58,7 @@ const About = () => {
                         <p className='text-sm md:text-md leading-tight'>
                             Passionate and dedicated software developer with a strong foundation in computer science 
                             and a keen interest in building innovative solutions.
-                             Proficient in various programming languages and frameworks, 
+ 
                              with hands-on experience in developing web and mobile application.
                         </p>
 
