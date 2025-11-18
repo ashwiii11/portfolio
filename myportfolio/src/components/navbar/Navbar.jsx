@@ -16,25 +16,25 @@ const Navbar = () => {
             menu ? "block" : "hidden"
           } mx-24 py-2 mt-4 font-semibold md:mt-5 bg-black px-2 rounded-xl bg-opacity-30 md:border-none text-center md:bg-transparent md:static md:mx-0 md:flex gap-6`}
         >
-          <a href="#about">
+          <a href="#About">
             <li className="text-md transition-all duration-300 p-1 md:p-0">
               About
             </li>
           </a>
 
-          <a href="#skills">
+          <a href="#Skills">
             <li className="text-md transition-all duration-300 p-1 md:p-0">
               Skills
             </li>
           </a>
 
-          <a href="#projects">
+          <a href="#Projects">
             <li className="text-md transition-all duration-300 p-1 md:p-0">
               Projects
             </li>
           </a>
 
-          <a href="#contact">
+          <a href="#Footer">
             <li className="text-md transition-all duration-300 p-1 md:p-0">
               Contact
             </li>

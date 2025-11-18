@@ -4,7 +4,7 @@ import {IoArrowForward} from 'react-icons/io5';
 
 const About = () => {
   return (
-    <div className='text-white md:flex overflow-hidden items-center md:flex-wrap md:justify-center bg-black
+    <div id='About' className='text-white md:flex overflow-hidden items-center md:flex-wrap md:justify-center bg-black
    mx-0 md:mx-20 bg-opacity-30 rounded-lg p-12 '>
       <div>
         <h2 className='text-2x1 md:text-4x1 font-bold'>About</h2>
@@ -15,7 +15,7 @@ const About = () => {
                 <div className='flex gap-3 py-4'>
                     <IoArrowForward size={30} className='mt-1'/>
 
-                    <spam className='w-96'>
+                    <span className='w-96'>
                         <h1 className='text-x1 md:text-2x1 font-semibold leading-normal'>
                             Software Developer
                         </h1>
@@ -26,14 +26,14 @@ const About = () => {
                              with hands-on experience in developing web and mobile application.
                         </p>
 
-                        </spam>
+                        </span>
                 </div>
 
 
                 <div className='flex gap-3 py-4'>
                     <IoArrowForward size={30} className='mt-1'/>
 
-                    <spam className='w-96'>
+                    <span className='w-96'>
                         <h1 className='text-x1 md:text-2x1 font-semibold leading-normal'>
                             Frontend Developer
                         </h1>
@@ -44,14 +44,14 @@ const About = () => {
                              with hands-on experience in developing web and mobile application.
                         </p>
 
-                        </spam>
+                        </span>
                 </div>
 
 
                 <div className='flex gap-3 py-4'>
                     <IoArrowForward size={30} className='mt-1'/>
 
-                    <spam className='w-96'>
+                    <span className='w-96'>
                         <h1 className='text-x1 md:text-2x1 font-semibold leading-normal'>
                             Backend Developer
                         </h1>
@@ -62,7 +62,7 @@ const About = () => {
                              with hands-on experience in developing web and mobile application.
                         </p>
 
-                        </spam>
+                        </span>
                 </div>
             </ul>
         </div>
